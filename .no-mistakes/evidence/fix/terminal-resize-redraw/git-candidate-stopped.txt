@@ -1,7 +1,7 @@
 
 ╭────────────────────────────────────────────────────────────╮
 │ ✦ gnhf wrapped                                             │
-│   claude worked for 8s on main                             │
+│   claude worked for 4s on main                             │
 ╰────────────────────────────────────────────────────────────╯
 
   iterations      2 total       2 good       0 failed
@@ -10,12 +10,12 @@
   files           2 added       0 updated    0 deleted
 
   notes           {run-worktree}/.resize-
-validation/harness/git-candidate-fixture/repo/.gnhf/runs/ship-a-readable-term-e71e13/notes.md
+verification/git-candidate-fixture/repo/.gnhf/runs/ship-a-readable-term-e71e13/notes.md
   debug log       {run-worktree}/.resize-
-validation/harness/git-candidate-fixture/repo/.gnhf/runs/ship-a-readable-term-e71e13/gnhf.log
+verification/git-candidate-fixture/repo/.gnhf/runs/ship-a-readable-term-e71e13/gnhf.log
 
-  next steps      git log --oneline ade92ecbae96..HEAD
-                  git diff --stat ade92ecbae96..HEAD
+  next steps      git log --oneline fbf0f1b8861b..HEAD
+                  git diff --stat fbf0f1b8861b..HEAD
                   gh pr create
 
   too much        git push no-mistakes:

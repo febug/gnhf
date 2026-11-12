@@ -1,52 +1,26 @@
 {
-  "checkedFixtureProcesses": [
-    {
-      "fixture": "git-candidate-fixture",
-      "marker": "provider-2-started",
-      "pid": 36609,
-      "running": false
-    },
-    {
-      "fixture": "git-candidate-fixture",
-      "marker": "provider-1-started",
-      "pid": 36588,
-      "running": false
-    },
-    {
-      "fixture": "git-candidate-fixture",
-      "marker": "hook-started",
-      "pid": 36619,
-      "running": false
-    },
-    {
-      "fixture": "git-baseline-fixture",
-      "marker": "provider-2-started",
-      "pid": 36810,
-      "running": false
-    },
-    {
-      "fixture": "git-baseline-fixture",
-      "marker": "provider-1-started",
-      "pid": 36788,
-      "running": false
-    },
-    {
-      "fixture": "git-baseline-fixture",
-      "marker": "hook-started",
-      "pid": 36817,
-      "running": false
-    }
+  "recordedProcessIdsExited": [
+    50907,
+    50927,
+    50986,
+    51028,
+    51051,
+    51123,
+    51134,
+    51167,
+    51187,
+    51215,
+    51229
   ],
-  "ptyExitCodes": {
-    "demo": 0,
-    "candidate": 130,
-    "baseline": 130
-  },
   "removed": [
-    ".resize-validation/",
-    "dist/",
+    ".resize-verification",
+    "dist",
     "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/results.json"
   ],
-  "dependenciesPreserved": true,
-  "remainingWorktreeStatus": ""
+  "preserved": [
+    "node_modules",
+    "dedicated evidence directory"
+  ],
+  "head": "b5faf3ced37a6db4b4e462f4c40372d558fadf16",
+  "worktreeStatus": ""
 }

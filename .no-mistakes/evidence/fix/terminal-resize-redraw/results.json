@@ -1,14 +1,17 @@
 {
-  "demo": {
-    "label": "demo-candidate",
-    "demo": true,
-    "exitCode": 0,
+  "idle": {
+    "label": "idle-candidate",
+    "idle": true,
+    "aliveDuringGracefulWait": true,
+    "exitCode": 130,
     "termiosRestored": true,
-    "fixtureCommitCount": 1,
+    "initialStty": "gfmt1:cflag=4b00:iflag=2b02:lflag=5cb:oflag=3:discard=f:dsusp=19:eof=4:eol=ff:eol2=ff:erase=7f:intr=3:kill=15:lnext=16:min=1:quit=1c:reprint=12:start=11:status=14:stop=13:susp=1a:time=0:werase=17:ispeed=9600:ospeed=9600",
+    "finalStty": "gfmt1:cflag=4b00:iflag=2b02:lflag=5cb:oflag=3:discard=f:dsusp=19:eof=4:eol=ff:eol2=ff:erase=7f:intr=3:kill=15:lnext=16:min=1:quit=1c:reprint=12:start=11:status=14:stop=13:susp=1a:time=0:werase=17:ispeed=9600:ospeed=9600",
+    "fixtureCommitCount": 2,
     "providerSurvivors": [],
     "ordinary": {
       "readable": true,
-      "outputBytes": 524,
+      "outputBytes": 615,
       "fullRepaints": 0,
       "reprintedPrompt": false
     },
@@ -18,8 +21,7 @@
       "normalBuffer": true,
       "cursorRestored": true,
       "titleCleared": true,
-      "ctrlCInputs": 1,
-      "postStopOutput": ""
+      "ctrlCInputs": 1
     },
     "rapid": {
       "damagedBeforeRepaint": true,
@@ -47,14 +49,17 @@
   },
   "candidate": {
     "label": "git-candidate",
-    "demo": false,
+    "idle": false,
+    "aliveDuringGracefulWait": true,
     "exitCode": 130,
-    "termiosRestored": null,
+    "termiosRestored": true,
+    "initialStty": "gfmt1:cflag=4b00:iflag=2b02:lflag=5cb:oflag=3:discard=f:dsusp=19:eof=4:eol=ff:eol2=ff:erase=7f:intr=3:kill=15:lnext=16:min=1:quit=1c:reprint=12:start=11:status=14:stop=13:susp=1a:time=0:werase=17:ispeed=9600:ospeed=9600",
+    "finalStty": "gfmt1:cflag=4b00:iflag=2b02:lflag=5cb:oflag=3:discard=f:dsusp=19:eof=4:eol=ff:eol2=ff:erase=7f:intr=3:kill=15:lnext=16:min=1:quit=1c:reprint=12:start=11:status=14:stop=13:susp=1a:time=0:werase=17:ispeed=9600:ospeed=9600",
     "fixtureCommitCount": 3,
     "providerSurvivors": [],
     "ordinary": {
       "readable": true,
-      "outputBytes": 585,
+      "outputBytes": 572,
       "fullRepaints": 0,
       "reprintedPrompt": false
     },
@@ -66,29 +71,6 @@
       "titleCleared": true,
       "ctrlCInputs": 1
     },
-    "rapid": {
-      "damagedBeforeRepaint": true,
-      "readableAfter": true,
-      "firstPaintIsFullFrame": true,
-      "reprintedTitle": true,
-      "reprintedPrompt": true,
-      "outputWhileSmall": "",
-      "resumedDifferential": true
-    },
-    "slow": [
-      {
-        "name": "slow-80x24",
-        "readable": true
-      },
-      {
-        "name": "slow-100x30",
-        "readable": true
-      },
-      {
-        "name": "slow-120x40",
-        "readable": true
-      }
-    ],
     "delayed": {
       "readableBefore": true,
       "damagedBeforeRepaint": true,
@@ -107,14 +89,17 @@
   },
   "baseline": {
     "label": "git-baseline",
-    "demo": false,
+    "idle": false,
+    "aliveDuringGracefulWait": true,
     "exitCode": 130,
-    "termiosRestored": null,
+    "termiosRestored": true,
+    "initialStty": "gfmt1:cflag=4b00:iflag=2b02:lflag=5cb:oflag=3:discard=f:dsusp=19:eof=4:eol=ff:eol2=ff:erase=7f:intr=3:kill=15:lnext=16:min=1:quit=1c:reprint=12:start=11:status=14:stop=13:susp=1a:time=0:werase=17:ispeed=9600:ospeed=9600",
+    "finalStty": "gfmt1:cflag=4b00:iflag=2b02:lflag=5cb:oflag=3:discard=f:dsusp=19:eof=4:eol=ff:eol2=ff:erase=7f:intr=3:kill=15:lnext=16:min=1:quit=1c:reprint=12:start=11:status=14:stop=13:susp=1a:time=0:werase=17:ispeed=9600:ospeed=9600",
     "fixtureCommitCount": 3,
     "providerSurvivors": [],
     "ordinary": {
       "readable": true,
-      "outputBytes": 702,
+      "outputBytes": 551,
       "fullRepaints": 0,
       "reprintedPrompt": false
     },
@@ -126,29 +111,6 @@
       "titleCleared": true,
       "ctrlCInputs": 1
     },
-    "rapid": {
-      "damagedBeforeRepaint": true,
-      "readableAfter": false,
-      "firstPaintIsFullFrame": false,
-      "reprintedTitle": false,
-      "reprintedPrompt": false,
-      "outputWhileSmall": "",
-      "resumedDifferential": true
-    },
-    "slow": [
-      {
-        "name": "slow-80x24",
-        "readable": true
-      },
-      {
-        "name": "slow-100x30",
-        "readable": true
-      },
-      {
-        "name": "slow-120x40",
-        "readable": true
-      }
-    ],
     "delayed": {
       "readableBefore": true,
       "damagedBeforeRepaint": true,
@@ -158,7 +120,7 @@
       "stdoutResizeEvents": 0,
       "firstPaintAfterSignalIsFullFrame": false,
       "firstPaintAfterSignalRestoresContent": false,
-      "firstPaintAfterSignalMs": 203,
+      "firstPaintAfterSignalMs": 201,
       "frameBeforeSignalWasDifferential": true,
       "reprintedTitle": false,
       "reprintedPrompt": false,

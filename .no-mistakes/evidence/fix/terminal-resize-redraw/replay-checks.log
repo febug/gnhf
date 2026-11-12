@@ -1,0 +1,131 @@
+{
+  "idle": {
+    "label": "idle-candidate",
+    "idle": true,
+    "aliveDuringGracefulWait": true,
+    "exitCode": 130,
+    "termiosRestored": true,
+    "initialStty": "gfmt1:cflag=4b00:iflag=2b02:lflag=5cb:oflag=3:discard=f:dsusp=19:eof=4:eol=ff:eol2=ff:erase=7f:intr=3:kill=15:lnext=16:min=1:quit=1c:reprint=12:start=11:status=14:stop=13:susp=1a:time=0:werase=17:ispeed=9600:ospeed=9600",
+    "finalStty": "gfmt1:cflag=4b00:iflag=2b02:lflag=5cb:oflag=3:discard=f:dsusp=19:eof=4:eol=ff:eol2=ff:erase=7f:intr=3:kill=15:lnext=16:min=1:quit=1c:reprint=12:start=11:status=14:stop=13:susp=1a:time=0:werase=17:ispeed=9600:ospeed=9600",
+    "fixtureCommitCount": 2,
+    "providerSurvivors": [],
+    "ordinary": {
+      "readable": true,
+      "outputBytes": 615,
+      "fullRepaints": 0,
+      "reprintedPrompt": false
+    },
+    "shutdown": {
+      "listenersRestored": true,
+      "stdinRaw": false,
+      "normalBuffer": true,
+      "cursorRestored": true,
+      "titleCleared": true,
+      "ctrlCInputs": 1
+    },
+    "rapid": {
+      "damagedBeforeRepaint": true,
+      "readableAfter": true,
+      "firstPaintIsFullFrame": true,
+      "reprintedTitle": true,
+      "reprintedPrompt": true,
+      "outputWhileSmall": "",
+      "resumedDifferential": true
+    },
+    "slow": [
+      {
+        "name": "slow-80x24",
+        "readable": true
+      },
+      {
+        "name": "slow-100x30",
+        "readable": true
+      },
+      {
+        "name": "slow-120x40",
+        "readable": true
+      }
+    ]
+  },
+  "candidate": {
+    "label": "git-candidate",
+    "idle": false,
+    "aliveDuringGracefulWait": true,
+    "exitCode": 130,
+    "termiosRestored": true,
+    "initialStty": "gfmt1:cflag=4b00:iflag=2b02:lflag=5cb:oflag=3:discard=f:dsusp=19:eof=4:eol=ff:eol2=ff:erase=7f:intr=3:kill=15:lnext=16:min=1:quit=1c:reprint=12:start=11:status=14:stop=13:susp=1a:time=0:werase=17:ispeed=9600:ospeed=9600",
+    "finalStty": "gfmt1:cflag=4b00:iflag=2b02:lflag=5cb:oflag=3:discard=f:dsusp=19:eof=4:eol=ff:eol2=ff:erase=7f:intr=3:kill=15:lnext=16:min=1:quit=1c:reprint=12:start=11:status=14:stop=13:susp=1a:time=0:werase=17:ispeed=9600:ospeed=9600",
+    "fixtureCommitCount": 3,
+    "providerSurvivors": [],
+    "ordinary": {
+      "readable": true,
+      "outputBytes": 572,
+      "fullRepaints": 0,
+      "reprintedPrompt": false
+    },
+    "shutdown": {
+      "listenersRestored": true,
+      "stdinRaw": false,
+      "normalBuffer": true,
+      "cursorRestored": true,
+      "titleCleared": true,
+      "ctrlCInputs": 1
+    },
+    "delayed": {
+      "readableBefore": true,
+      "damagedBeforeRepaint": true,
+      "readableAfter": true,
+      "outputWhileHookBlocked": "",
+      "deliveredSignalAtOriginalSize": true,
+      "stdoutResizeEvents": 0,
+      "firstPaintAfterSignalIsFullFrame": true,
+      "firstPaintAfterSignalRestoresContent": true,
+      "firstPaintAfterSignalMs": 203,
+      "frameBeforeSignalWasDifferential": true,
+      "reprintedTitle": true,
+      "reprintedPrompt": true,
+      "resumedDifferential": true
+    }
+  },
+  "baseline": {
+    "label": "git-baseline",
+    "idle": false,
+    "aliveDuringGracefulWait": true,
+    "exitCode": 130,
+    "termiosRestored": true,
+    "initialStty": "gfmt1:cflag=4b00:iflag=2b02:lflag=5cb:oflag=3:discard=f:dsusp=19:eof=4:eol=ff:eol2=ff:erase=7f:intr=3:kill=15:lnext=16:min=1:quit=1c:reprint=12:start=11:status=14:stop=13:susp=1a:time=0:werase=17:ispeed=9600:ospeed=9600",
+    "finalStty": "gfmt1:cflag=4b00:iflag=2b02:lflag=5cb:oflag=3:discard=f:dsusp=19:eof=4:eol=ff:eol2=ff:erase=7f:intr=3:kill=15:lnext=16:min=1:quit=1c:reprint=12:start=11:status=14:stop=13:susp=1a:time=0:werase=17:ispeed=9600:ospeed=9600",
+    "fixtureCommitCount": 3,
+    "providerSurvivors": [],
+    "ordinary": {
+      "readable": true,
+      "outputBytes": 551,
+      "fullRepaints": 0,
+      "reprintedPrompt": false
+    },
+    "shutdown": {
+      "listenersRestored": true,
+      "stdinRaw": false,
+      "normalBuffer": true,
+      "cursorRestored": true,
+      "titleCleared": true,
+      "ctrlCInputs": 1
+    },
+    "delayed": {
+      "readableBefore": true,
+      "damagedBeforeRepaint": true,
+      "readableAfter": false,
+      "outputWhileHookBlocked": "",
+      "deliveredSignalAtOriginalSize": true,
+      "stdoutResizeEvents": 0,
+      "firstPaintAfterSignalIsFullFrame": false,
+      "firstPaintAfterSignalRestoresContent": false,
+      "firstPaintAfterSignalMs": 201,
+      "frameBeforeSignalWasDifferential": true,
+      "reprintedTitle": false,
+      "reprintedPrompt": false,
+      "resumedDifferential": true
+    }
+  }
+}
+All scoped live contracts passed; the base reproduces the missing title and prompt.

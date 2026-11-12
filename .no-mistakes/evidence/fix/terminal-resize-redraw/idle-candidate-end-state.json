@@ -1,0 +1,9 @@
+{
+  "status": "stopped",
+  "stopCondition": null,
+  "agentError": null,
+  "iterations": 1,
+  "successCount": 1,
+  "failCount": 0,
+  "endedAt": "2026-11-12T21:29:51.700Z"
+}

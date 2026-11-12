@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "{run-worktree}/.resize-verification/drive.py", line 188, in <module>
+    run('idle-candidate', ROOT / 'dist/cli.mjs', idle=True)
+  File "{run-worktree}/.resize-verification/drive.py", line 151, in run
+    restored_termios = termios.tcgetattr(slave) == initial_termios
+termios.error: (25, 'Inappropriate ioctl for device')

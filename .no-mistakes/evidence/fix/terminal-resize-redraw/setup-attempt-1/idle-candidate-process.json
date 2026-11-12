@@ -1,0 +1,7 @@
+{
+  "label": "idle-candidate",
+  "idle": true,
+  "aliveDuringGracefulWait": true,
+  "error": "(25, 'Inappropriate ioctl for device')",
+  "providerSurvivors": []
+}
