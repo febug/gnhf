@@ -1,0 +1,17 @@
+node:fs:439
+    return binding.readFileUtf8(path, stringToFlags(options.flag));
+                   ^
+
+Error: ENOENT: no such file or directory, open '{run-worktree}/.resize-validation/package.json'
+[90m    at readFileSync (node:fs:439:20)[39m
+    at file://{run-worktree}/.resize-validation/harness/cli.mjs:30847:35
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)[39m
+[90m    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)[39m
+[90m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)[39m {
+  errno: [33m-2[39m,
+  code: [32m'ENOENT'[39m,
+  syscall: [32m'open'[39m,
+  path: [32m'{run-worktree}/.resize-validation/package.json'[39m
+}
+
+Node.js v24.13.0

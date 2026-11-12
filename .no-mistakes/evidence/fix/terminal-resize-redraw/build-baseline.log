@@ -1,0 +1,14 @@
+ℹ entry: src/cli.ts
+ℹ target: node20
+ℹ tsconfig: tsconfig.json
+ℹ Build start
+ℹ Hint: consider adding deps.onlyBundle option to avoid unintended bundling of dependencies, or set deps.onlyBundle: false to disable this hint.
+See more at https://tsdown.dev/options/dependencies#deps-onlybundle
+Detected dependencies in bundle:
+- acpx
+- @openclaw/fs-safe
+- @agentclientprotocol/sdk
+- zod
+ℹ .resize-validation/harness/cli.mjs  1.13 MB
+ℹ 1 files, total: 1.13 MB
+✔ Build complete in 59ms

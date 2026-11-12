@@ -1,0 +1,1 @@
+First baseline launch exited before TUI startup because the adapted harness placed its bundle two directories below the repository root. The CLI intentionally loads ../package.json. No product failure. The baseline was rebuilt in .resize-validation/ and re-driven; final baseline artifacts are in the parent evidence directory.

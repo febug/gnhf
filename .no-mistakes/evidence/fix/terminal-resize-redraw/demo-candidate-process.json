@@ -1,0 +1,8 @@
+{
+  "label": "demo-candidate",
+  "demo": true,
+  "exitCode": 0,
+  "termiosRestored": true,
+  "fixtureCommitCount": 1,
+  "providerSurvivors": []
+}

@@ -1,0 +1,169 @@
+{
+  "demo": {
+    "label": "demo-candidate",
+    "demo": true,
+    "exitCode": 0,
+    "termiosRestored": true,
+    "fixtureCommitCount": 1,
+    "providerSurvivors": [],
+    "ordinary": {
+      "readable": true,
+      "outputBytes": 524,
+      "fullRepaints": 0,
+      "reprintedPrompt": false
+    },
+    "shutdown": {
+      "listenersRestored": true,
+      "stdinRaw": false,
+      "normalBuffer": true,
+      "cursorRestored": true,
+      "titleCleared": true,
+      "ctrlCInputs": 1,
+      "postStopOutput": ""
+    },
+    "rapid": {
+      "damagedBeforeRepaint": true,
+      "readableAfter": true,
+      "firstPaintIsFullFrame": true,
+      "reprintedTitle": true,
+      "reprintedPrompt": true,
+      "outputWhileSmall": "",
+      "resumedDifferential": true
+    },
+    "slow": [
+      {
+        "name": "slow-80x24",
+        "readable": true
+      },
+      {
+        "name": "slow-100x30",
+        "readable": true
+      },
+      {
+        "name": "slow-120x40",
+        "readable": true
+      }
+    ]
+  },
+  "candidate": {
+    "label": "git-candidate",
+    "demo": false,
+    "exitCode": 130,
+    "termiosRestored": null,
+    "fixtureCommitCount": 3,
+    "providerSurvivors": [],
+    "ordinary": {
+      "readable": true,
+      "outputBytes": 585,
+      "fullRepaints": 0,
+      "reprintedPrompt": false
+    },
+    "shutdown": {
+      "listenersRestored": true,
+      "stdinRaw": false,
+      "normalBuffer": true,
+      "cursorRestored": true,
+      "titleCleared": true,
+      "ctrlCInputs": 1
+    },
+    "rapid": {
+      "damagedBeforeRepaint": true,
+      "readableAfter": true,
+      "firstPaintIsFullFrame": true,
+      "reprintedTitle": true,
+      "reprintedPrompt": true,
+      "outputWhileSmall": "",
+      "resumedDifferential": true
+    },
+    "slow": [
+      {
+        "name": "slow-80x24",
+        "readable": true
+      },
+      {
+        "name": "slow-100x30",
+        "readable": true
+      },
+      {
+        "name": "slow-120x40",
+        "readable": true
+      }
+    ],
+    "delayed": {
+      "readableBefore": true,
+      "damagedBeforeRepaint": true,
+      "readableAfter": true,
+      "outputWhileHookBlocked": "",
+      "deliveredSignalAtOriginalSize": true,
+      "stdoutResizeEvents": 0,
+      "firstPaintAfterSignalIsFullFrame": true,
+      "firstPaintAfterSignalRestoresContent": true,
+      "firstPaintAfterSignalMs": 203,
+      "frameBeforeSignalWasDifferential": true,
+      "reprintedTitle": true,
+      "reprintedPrompt": true,
+      "resumedDifferential": true
+    }
+  },
+  "baseline": {
+    "label": "git-baseline",
+    "demo": false,
+    "exitCode": 130,
+    "termiosRestored": null,
+    "fixtureCommitCount": 3,
+    "providerSurvivors": [],
+    "ordinary": {
+      "readable": true,
+      "outputBytes": 702,
+      "fullRepaints": 0,
+      "reprintedPrompt": false
+    },
+    "shutdown": {
+      "listenersRestored": true,
+      "stdinRaw": false,
+      "normalBuffer": true,
+      "cursorRestored": true,
+      "titleCleared": true,
+      "ctrlCInputs": 1
+    },
+    "rapid": {
+      "damagedBeforeRepaint": true,
+      "readableAfter": false,
+      "firstPaintIsFullFrame": false,
+      "reprintedTitle": false,
+      "reprintedPrompt": false,
+      "outputWhileSmall": "",
+      "resumedDifferential": true
+    },
+    "slow": [
+      {
+        "name": "slow-80x24",
+        "readable": true
+      },
+      {
+        "name": "slow-100x30",
+        "readable": true
+      },
+      {
+        "name": "slow-120x40",
+        "readable": true
+      }
+    ],
+    "delayed": {
+      "readableBefore": true,
+      "damagedBeforeRepaint": true,
+      "readableAfter": false,
+      "outputWhileHookBlocked": "",
+      "deliveredSignalAtOriginalSize": true,
+      "stdoutResizeEvents": 0,
+      "firstPaintAfterSignalIsFullFrame": false,
+      "firstPaintAfterSignalRestoresContent": false,
+      "firstPaintAfterSignalMs": 203,
+      "frameBeforeSignalWasDifferential": true,
+      "reprintedTitle": false,
+      "reprintedPrompt": false,
+      "resumedDifferential": true
+    }
+  }
+}
+All scoped live contracts passed; the base reproduces the missing title and prompt.

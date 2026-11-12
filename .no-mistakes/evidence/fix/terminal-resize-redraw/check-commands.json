@@ -1,0 +1,77 @@
+[
+  {
+    "label": "build-candidate",
+    "command": [
+      "pnpm",
+      "run",
+      "build"
+    ],
+    "exitCode": 0
+  },
+  {
+    "label": "build-baseline",
+    "command": [
+      "node",
+      ".resize-validation/harness/build-baseline.mjs"
+    ],
+    "exitCode": 0
+  },
+  {
+    "label": "targeted-renderer-tests",
+    "command": [
+      "pnpm",
+      "exec",
+      "vitest",
+      "run",
+      "src/renderer.test.ts",
+      "-t",
+      "Renderer resizing|Renderer ctrl.c|Renderer terminal title"
+    ],
+    "exitCode": 0
+  },
+  {
+    "label": "initial-pty-drive",
+    "command": [
+      "python3",
+      ".resize-validation/harness/drive.py"
+    ],
+    "exitCode": 1,
+    "note": "Candidate and demo completed; nested baseline output location caused startup ENOENT. Setup corrected, capture retained."
+  },
+  {
+    "label": "corrected-build-baseline",
+    "command": [
+      "node",
+      ".resize-validation/harness/build-baseline.mjs"
+    ],
+    "exitCode": 0,
+    "outputDirectory": ".resize-validation"
+  },
+  {
+    "label": "baseline-pty-drive",
+    "command": [
+      "python3",
+      ".resize-validation/harness/drive.py",
+      "git-baseline"
+    ],
+    "exitCode": 0
+  },
+  {
+    "label": "vt-replay-contract-check",
+    "command": [
+      "node",
+      ".resize-validation/harness/replay.cjs"
+    ],
+    "exitCode": 0
+  },
+  {
+    "label": "rasterize-terminal-cells",
+    "command": [
+      "swift",
+      "-module-cache-path",
+      ".resize-validation/swift-cache",
+      ".resize-validation/harness/render-images.swift"
+    ],
+    "exitCode": 0
+  }
+]

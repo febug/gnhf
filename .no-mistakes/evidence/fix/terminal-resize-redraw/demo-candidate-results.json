@@ -1,0 +1,46 @@
+{
+  "label": "demo-candidate",
+  "demo": true,
+  "exitCode": 0,
+  "termiosRestored": true,
+  "fixtureCommitCount": 1,
+  "providerSurvivors": [],
+  "ordinary": {
+    "readable": true,
+    "outputBytes": 524,
+    "fullRepaints": 0,
+    "reprintedPrompt": false
+  },
+  "shutdown": {
+    "listenersRestored": true,
+    "stdinRaw": false,
+    "normalBuffer": true,
+    "cursorRestored": true,
+    "titleCleared": true,
+    "ctrlCInputs": 1,
+    "postStopOutput": ""
+  },
+  "rapid": {
+    "damagedBeforeRepaint": true,
+    "readableAfter": true,
+    "firstPaintIsFullFrame": true,
+    "reprintedTitle": true,
+    "reprintedPrompt": true,
+    "outputWhileSmall": "",
+    "resumedDifferential": true
+  },
+  "slow": [
+    {
+      "name": "slow-80x24",
+      "readable": true
+    },
+    {
+      "name": "slow-100x30",
+      "readable": true
+    },
+    {
+      "name": "slow-120x40",
+      "readable": true
+    }
+  ]
+}

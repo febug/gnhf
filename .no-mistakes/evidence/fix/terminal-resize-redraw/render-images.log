@@ -1,0 +1,9 @@
+Fonts: Menlo-Regular, Menlo-Bold; native AppKit Unicode fallback
+demo-candidate-initial-readable.png
+git-candidate-rapid-before-repaint.png
+git-candidate-rapid-recovered.png
+git-candidate-delayed-recovered.png
+git-baseline-delayed-recovered.png
+git-candidate-slow-80x24.png
+git-candidate-graceful-wait.png
+git-candidate-stopped.png

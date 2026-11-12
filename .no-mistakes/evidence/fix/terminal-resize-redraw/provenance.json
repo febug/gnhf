@@ -1,0 +1,19 @@
+{
+  "head": "adda1ad6c9486c003057d33ab7f2cdd7266eab6f",
+  "baselineRendererCommit": "3e1179f8460ac53779063d1ca9dfa2c02ec02e38",
+  "node": "v24.13.0",
+  "pnpm": "11.1.1",
+  "platform": "Darwin",
+  "sha256": {
+    "dist/cli.mjs": "311323204af9dbe015dbc75924cb6314982d3c77830970278b10e831dc302aeb",
+    ".resize-validation/cli.mjs": "6a571878a909ab0a8c8687ea9de7615c2211cb46aeaf4fc32fc3b679606aee6c",
+    "/private/tmp/find-pr-gnhf-no-mistakes/state/evidence/01M78RVVS6Y6C8BAX8NHGPCJ5Z/verification-harness.zip": "1a2645d66e80258ca05d4084d33bcac082189e698c10202dee0b2744e9c8fc73"
+  },
+  "sourceDiffScope": [
+    "src/renderer.ts",
+    "src/renderer.test.ts",
+    "README.md"
+  ],
+  "terminalEmulator": "@xterm/headless 6.0.0 + @xterm/addon-unicode11",
+  "isolation": "Synthetic prompt and external Claude-protocol executable; real CLI, PTY, renderer, orchestrator, Git commits and blocking hook; isolated home/config/cache/tmp and Git repository; telemetry off; no provider credentials or real provider invocation."
+}

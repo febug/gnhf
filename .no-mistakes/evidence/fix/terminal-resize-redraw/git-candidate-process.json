@@ -1,0 +1,8 @@
+{
+  "label": "git-candidate",
+  "demo": false,
+  "exitCode": 130,
+  "termiosRestored": null,
+  "fixtureCommitCount": 3,
+  "providerSurvivors": []
+}
